@@ -186,7 +186,6 @@ h2 {
     flex-grow: 1;
     flex-basis: 150px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -206,4 +205,15 @@ h2 {
 
 .cta button {
     border: 3px solid #f9faf8;
+    flex-shrink: 0;
+}
+
+.footer {
+    color: #f9faf8;
+    background-color: #1f2937;
+    font-size: 16px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
