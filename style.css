@@ -53,8 +53,10 @@ ul {
 
 .hero {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    align-content: center;
     gap: 55px;
     padding: 120px 0;
 }
